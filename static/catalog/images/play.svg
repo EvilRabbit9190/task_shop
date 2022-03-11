@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 133 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ic_play-shadow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M45.5,0 C20.37035,0 0,20.37035 0,45.5 C0,70.62965 20.37035,91 45.5,91 C70.62965,91 91,70.62965 91,45.5 C91,20.37035 70.62965,0 45.5,0 M45.5,4 C68.1069444,4 86.5,22.6173611 86.5,45.5 C86.5,68.3826389 68.1069444,87 45.5,87 C22.8930556,87 4.5,68.3826389 4.5,45.5 C4.5,22.6173611 22.8930556,4 45.5,4" id="path-1"></path>
+        <filter x="-35.7%" y="-33.5%" width="171.4%" height="171.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M37.8630293,61.7444752 L61.99461,47.7266112 C63.3386237,46.9449204 63.333957,44.8946964 61.9876099,44.1221482 L37.8560293,30.2505655 C36.5656827,29.5100163 35,30.4997008 35,32.0562254 L35,59.9433865 C35,61.5044824 36.5726828,62.4941669 37.8630293,61.7444752" id="path-3"></path>
+        <filter x="-116.1%" y="-95.3%" width="332.1%" height="303.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="07f---Medium-Banner---Image-Tests-&amp;-&quot;Worst-Case&quot;-Scenarios" transform="translate(-834.000000, -1271.000000)">
+            <g id="ic_play-shadow" transform="translate(855.000000, 1290.000000)">
+                <g id="Fill-1">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Fill-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

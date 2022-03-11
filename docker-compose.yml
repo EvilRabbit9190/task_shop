@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  django:
+    container_name: products
+    build:
+      context: ./
+      dockerfile: DockerFile
+    command: bash -c "
+             python /usr/src/internetShop/manage.py makemigrations --noinput &&
+             python /usr/src/internetShop/manage.py migrate --noinput &&
+             python /usr/src/internetShop/manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/usr/src/internetShop
+    ports:
+      - 8000:8000
